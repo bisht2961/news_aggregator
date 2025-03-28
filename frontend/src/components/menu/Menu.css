@@ -1,0 +1,44 @@
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    color: white;
+    display: inline-block;
+    margin: 1em;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu .inactive{
+    background-color: black;
+}
+
+.menu .inactive:hover {
+    background-color: grey;
+}
+
+.menu .active{
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .menu li{
+      flex: 1 1 100%; /* Each item takes full width on smaller screens */
+      margin-bottom: 10px;
+    }
+}
+  
+@media (min-width: 769px) {
+    .menu li {
+      flex: 1 1 auto; /* Distributes items evenly */
+    }
+}

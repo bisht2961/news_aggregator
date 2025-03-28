@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  margin: auto;
+  background: #fff;
+  padding-bottom: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text {
+  color: black;
+  font-size: 50px;
+  font-weight: 700;
+}
+.underline {
+  width: 70px;
+  height: 6px;
+  background: black;
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.input img {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.forgot-password {
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 14px;
+}
+
+.forgot-password span {
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.signup-action-div {
+  justify-content: center;
+  padding-left: 62px;
+  margin-top: 27px;
+  color: #797979;
+  font-size: 14px;
+}
+
+
+.change-action-btn {
+  background-color: white;
+  border-radius: 8px;
+  border-width: 0;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 17px;
+  font-weight: 900;
+}
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 59px;
+  color: black;
+  background: lightgrey;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
